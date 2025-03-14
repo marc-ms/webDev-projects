@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="name">
+                Introduce your name:
+            </label>
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+            <label for="email">
+                Introduce your email:
+            </label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>Password</legend>
+            <label for="password">
+                Introduce your password:
+            </label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+            <legend align="center">Select a gender: </legend>
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="none">
+                <label for="none">I don't want to say it</label>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Select</legend>
+            <label for="meals">Vegetables:</label>
+            <select name="meals" id="vegetables">
+                <option>Salad</option>
+                <option>Potato</option>
+                <option>Cucumber</option>
+                <option>Onion</option>
+            </select>
+
+            <label for="meals">Fruits:</label>
+            <select name="meals" id="fruits">
+                <option>Tomato</option>
+                <option>Apple</option>
+                <option>Pear</option>
+                <option>Melon</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Checkbox</legend>
+            <label for="vegan">
+                Vegan
+            </label>
+            <input type="checkbox" name="vegan" id="vegan">
+        </fieldset>
+            <input type="button" value="Submit">
+
+    </form>
+</body>
+
+</html>

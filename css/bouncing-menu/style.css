@@ -1,0 +1,27 @@
+.menu {
+    transform: translateY(-100%);
+    animation: bounce 2s ease infinite;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    15% {
+        transform: translateY(35%);
+    }
+
+    25% {
+        transform: translateY(30%);
+    }
+
+    50% {
+        transform: translateY(45%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}

@@ -1,0 +1,31 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.tables {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.tables__item {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(54, 48, 48);
+    border-radius: 10px;
+    
+}
+
+.tables__list {
+    list-style: none;
+    padding: 0;
+    background-image: linear-gradient(to bottom, pink, rgb(94, 94, 222));
+    background-clip: text;
+    color: transparent;
+    font-size: large;
+}
+

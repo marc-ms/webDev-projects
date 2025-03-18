@@ -11,6 +11,10 @@ Here are some screenshots of differents projects:
 |---------------------------------|
 | ![Homepage screenshot](/screenshots/social-card.png) |
 
+| Times Tables                    |
+|---------------------------------|
+| ![Homepage screenshot](/screenshots/times-tables.png) |
+
 | Grid Layout                     |
 |---------------------------------|
 | ![Homepage screenshot](/screenshots/grid-layout.png) |

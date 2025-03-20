@@ -1,7 +1,24 @@
 const articlesLayout = document.querySelector('.layout__articles')
-const createArticleBtn = document.querySelector('.create__button')
+const title = document.querySelector('#title')
+const subtitle = document.querySelector('#subtitle')
+const description = document.querySelector('#description') 
+const form = document.querySelector('.form__create')
 
-createArticleBtn.addEventListener("click", () => {
+let articles = []
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
+
+    if (title.value && subtitle.value && description.value) {
+        let article = {
+            title: title.value,
+            subtitle: subtitle.value,
+            description: description.value
+        }
+        articles.push(article)
+        
+    }
+    console.log(articles[0].title)
     addArticle()
 })
 
@@ -17,9 +34,7 @@ function addArticle() {
                     </div>
 
                     <p class="content__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur optio illo doloribus
-                        mollitia fugit minus, debitis atque deserunt quo? Tenetur, odio quasi? Eius ducimus, error aut
-                        minima beatae culpa!
+                        ${articles[0].description}
                     </p>
                     <button class="content__btn">Read More</button>
                 </div>
